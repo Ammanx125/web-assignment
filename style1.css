@@ -1,0 +1,28 @@
+.score-circle {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 1.5rem;
+  border-radius: 50%;
+  /* background: conic-gradient(var(--violet-blue), var(--persian-blue)); */
+  background: conic-gradient(from 0deg, var(--light-royal-blue), var(--light-slate-blue), var(--light-royal-blue));
+  /* background: radial-gradient(circle, var(--light-royal-blue), var(--light-slate-blue), var(--light-royal-blue)); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+  box-shadow: 0 0 25px rgba(255,255,255,0.2);
+  animation: rotateBg 10s linear infinite;
+  transition: transform 0.4s ease, box-shadow 0.3s ease;
+}
+
+/* .score-circle:hover {
+  transform: rotateY(10deg) rotateX(10deg) scale(1.05);
+  box-shadow: 0 0 40px rgba(255,255,255,0.4);
+} */
+
+.score-circle span {
+  font-size: 3rem;
+  font-weight: 800;
+}
