@@ -115,3 +115,30 @@ button .ripple {
   opacity: 1;
   transform: translateX(0);
 }
+.score-circle span {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.result h1 {
+  margin-top: 1rem;
+  font-size: 1.8rem;
+}
+
+.desc {
+  color: var(--light-lavender);
+  margin-top: 0.8rem;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.summary {
+  flex: 1;
+  padding: 2rem 3rem;
+}
+
+.summary h2 {
+  color: var(--dark-gray-blue);
+  margin-bottom: 1.5rem;
+}
+
