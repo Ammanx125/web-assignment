@@ -7,7 +7,7 @@ Name:
 5.Fikir Mentesnot
 6.Haymaont Mulugeta
 7.Yididya Wendosen
-8.Hawi
+8.Hawi Feyissa
 9.Hibst Getachew
 10.Eyeusalem Bekele
 11.Hannah Danniel
